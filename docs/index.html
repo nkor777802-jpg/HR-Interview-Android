@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="description" content="Веб-демо приложения HR Интервью — структурированное собеседование" />
+  <title>HR Интервью</title>
+  <link rel="icon" href="assets/ic_launcher_new.png" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/ic_launcher_new.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="is-landing">
+  <div class="stage">
+    <svg class="stage-waves" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <path d="M-40 180 C 180 80, 360 260, 560 170 S 920 60, 1240 210" fill="none" stroke="rgba(10,58,107,.10)" stroke-width="1.6"/>
+      <path d="M-40 250 C 220 150, 400 320, 620 230 S 980 140, 1240 280" fill="none" stroke="rgba(227,106,18,.10)" stroke-width="1.8"/>
+      <path d="M-40 620 C 200 540, 420 700, 680 600 S 980 520, 1240 640" fill="none" stroke="rgba(10,58,107,.08)" stroke-width="1.4"/>
+    </svg>
+
+    <section class="landing" id="landing" aria-label="Вход в демо">
+      <div class="landing-card">
+        <img class="landing-icon" src="assets/ic_launcher_new.png" width="132" height="132" alt="HR Интервью" />
+        <h1 class="landing-title">HR Интервью</h1>
+        <p class="landing-sub">Структурированное интервью<br />и оценка кандидатов</p>
+        <span class="landing-badge">Демонстрационная версия</span>
+        <div class="landing-line" aria-hidden="true"></div>
+        <button class="enter-btn" type="button" id="enter-demo">Войти</button>
+        <p class="landing-note">Интерактивное веб-демо Android-приложения</p>
+      </div>
+    </section>
+
+    <div class="device" id="device">
+      <div class="device-island" aria-hidden="true"></div>
+      <div class="phone" id="app"></div>
+    </div>
+  </div>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
